@@ -4,6 +4,7 @@ set shiftwidth=2
 set tabstop=2
 set expandtab
 set number
+set foldmethod=syntax
 
 let $PATH = $PATH . ':' . expand('~/.cabal/bin')
 
