@@ -17,6 +17,7 @@ call plug#begin('~/.vim/plugged')
 "--- General
 Plug 'Valloric/YouCompleteMe'
 Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-dispatch'
 
 " --- Color schemes
 Plug 'junegunn/seoul256.vim'
