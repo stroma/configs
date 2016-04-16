@@ -56,7 +56,10 @@ Plug 'bling/vim-airline'
 Plug 'tpope/vim-repeat'
 Plug 'junegunn/goyo.vim'
 Plug 'vim-scripts/dbext.vim'
-"
+
+" --- Markdown
+Plug 'JamshedVesuna/vim-markdown-preview'
+
 " --- Mustache
 Plug 'mustache/vim-mustache-handlebars'
 
