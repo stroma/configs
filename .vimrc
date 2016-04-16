@@ -14,11 +14,6 @@ let mapleader = ","
 
 call plug#begin('~/.vim/plugged')
 
-"--- General
-Plug 'Valloric/YouCompleteMe'
-Plug 'tpope/vim-endwise'
-Plug 'tpope/vim-dispatch'
-
 " --- Color schemes
 Plug 'junegunn/seoul256.vim'
 Plug 'altercation/vim-colors-solarized'
@@ -26,6 +21,27 @@ Plug 'jnurmine/Zenburn'
 Plug 'jeetsukumaran/vim-nefertiti'
 Plug 'andreasvc/vim-256noir'
 Plug 'gilgigilgil/anderson.vim'
+"
+" --- Docker
+Plug 'ekalinin/Dockerfile.vim'
+
+" --- Elm
+Plug 'lambdatoast/elm.vim'
+
+"--- General
+Plug 'Valloric/YouCompleteMe'
+Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-dispatch'
+
+" --- Haskell
+Plug 'yogsototh/haskell-vim'            " syntax indentation / highlight
+Plug 'enomsg/vim-haskellConcealPlus'    " unicode for haskell operators
+Plug 'eagletmt/ghcmod-vim'
+Plug 'eagletmt/neco-ghc'
+Plug 'Twinside/vim-hoogle'
+
+" --- Kotlin
+Plug 'udalov/kotlin-vim'
 
 " --- Miscellaneous
 Plug 'bronson/vim-trailing-whitespace'
@@ -40,16 +56,13 @@ Plug 'bling/vim-airline'
 Plug 'tpope/vim-repeat'
 Plug 'junegunn/goyo.vim'
 Plug 'vim-scripts/dbext.vim'
+"
+" --- Mustache
+Plug 'mustache/vim-mustache-handlebars'
 
-" --- Haskell
-Plug 'yogsototh/haskell-vim'            " syntax indentation / highlight
-Plug 'enomsg/vim-haskellConcealPlus'    " unicode for haskell operators
-Plug 'eagletmt/ghcmod-vim'
-Plug 'eagletmt/neco-ghc'
-Plug 'Twinside/vim-hoogle'
-
-" --- Yesod
-Plug 'pbrisbin/vim-syntax-shakespeare'    " Yesod templates
+" --- Rails
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-bundler'
 
 " --- Ruby
 Plug 'tpope/vim-rake'
@@ -57,21 +70,9 @@ Plug 'tpope/vim-cucumber'
 Plug 'skalnik/vim-vroom'
 Plug 'ngmy/vim-rubocop'
 
-" --- Rails
-Plug 'tpope/vim-rails'
-Plug 'tpope/vim-bundler'
+" --- Yesod
+Plug 'pbrisbin/vim-syntax-shakespeare'    " Yesod templates
 
-" --- Kotlin
-Plug 'udalov/kotlin-vim'
-
-" --- Docker
-Plug 'ekalinin/Dockerfile.vim'
-
-" --- Elm
-Plug 'lambdatoast/elm.vim'
-
-" --- Mustache
-Plug 'mustache/vim-mustache-handlebars'
 $
 call plug#end()
 
